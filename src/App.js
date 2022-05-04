@@ -14,7 +14,8 @@ import LoadingBar from 'react-top-loading-bar'
 
 const  App =()=> {
  const pageSize = 6;
- const apiKey =process.env.REACT_APP_NEWS_API;
+ const apiKey = '2de821f8e3e0423fbd8f140c881dd70d'
+//  const apiKey =process.env.REACT_APP_NEWS_API;  --- used to hidden api key in local file 
 
   const [progress, setProgress] = useState(0)
  
